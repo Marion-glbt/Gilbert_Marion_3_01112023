@@ -7,6 +7,8 @@
     --main-color: #0065fc;
     --main-bg-color: #f2f2f2;
     --filter-bg-color: #deebff;
+    --white: white;
+    --grey: #d9d9d9;
 }
 
 .fa-solid {
@@ -180,6 +182,8 @@ header img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
+    height: 380px;
+    padding: 30px;
 }
 
 .activites .card img {

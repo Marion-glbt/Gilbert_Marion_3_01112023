@@ -70,7 +70,7 @@ header {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 68px;
 }
 
 header img {
@@ -177,6 +177,10 @@ header img {
     margin-bottom: 5px;
 }
 
+.card-rating {
+    padding-bottom: 15px;
+}
+
 /*** Activités ***/
 .activites {
     display: grid;
@@ -188,7 +192,7 @@ header img {
 
 .activites .card img {
     border-radius: 20px 20px 0 0;
-    height: 125px;
+    height: 380px;
     width: 100%;
     object-fit: cover;
 }

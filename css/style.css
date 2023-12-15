@@ -9,6 +9,7 @@
     --filter-bg-color: #deebff;
     --white: white;
     --grey: #d9d9d9;
+    --black: #000000;
 }
 
 .fa-solid {
@@ -77,7 +78,59 @@ header img {
     width: 62px;
 }
 
+/*** Recherche ***/
+
+.groupresearch {
+    display: flex;
+    justify-content: flex-start;
+    padding: 35px 0px;
+}
+
+
+.icon {
+    width: 50px;
+    height: 49px;
+    color: var(--black);
+    background-color: var(--grey);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.input {
+    display: flex;
+    gap: 24px;
+    width: 377px;
+    height: 49px;
+    align-items: center;
+    border: color 1px; #d9d9d9;
+}
+
+.buttonsearch {
+    display: flex;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px;
+    height: 49px;
+    width: 132px;
+    background-color: #0065fc;
+    border: #0065fc;
+}
+
+.research {
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+}
+
 /****** Filter ***********/
+
+.groupfilter {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+
 .filter .button {
     color: var(--noir);
     background-color: var(--white);
@@ -90,6 +143,14 @@ header img {
 
 .filter .button i {
     margin-right: 10px;
+}
+
+.groupfilter2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 35px 0px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -218,6 +279,14 @@ footer ul {
 footer h3 {
     padding: 2Opx;
 }
+
+.end {
+    width: 1440px;
+    padding-bottom: 58px;
+    align-items: center;
+    color: #d9d9d9;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

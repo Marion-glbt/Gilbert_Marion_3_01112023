@@ -78,11 +78,10 @@ header img {
     width: 62px;
 }
 
-header nav li:hover {
-}
-
 header nav li:hover a {
     color: #0065fc;
+    border-top: 2px solid;
+    padding: 13px;
 }
 
 /*** Recherche ***/
@@ -198,6 +197,11 @@ header nav li:hover a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergementsh2 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
 }
 
 .hebergements-container-cards {

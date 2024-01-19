@@ -96,7 +96,7 @@ header nav li:hover a {
 .groupresearch {
     display: flex;
     justify-content: flex-start;
-    padding: 35px 0px;
+    margin: 35px 0px;
 }
 
 .icon {
@@ -168,7 +168,7 @@ header nav li:hover a {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    padding: 35px 0px;
+    margin: 35px 0px;
 }
 
 .groupfilter3 {
@@ -406,10 +406,33 @@ footer h3 {
         padding: 0px;
     }
 
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 62px;
+        padding: 30px;
+    }
+
+    header nav ul {
+        padding: 0px;
+    }
+
     h1 {
         margin-block-start: 0px;
         margin-block-end: 0px;
-        padding: 30px 20px 8px 20px;
+        margin-bottom: 8px;
+        padding-top: 30px;
+    }
+
+    .recherche {
+        padding: 0px 20px;
+    }
+
+    .input {
+        width: 100%;
+        margin-right: -15px;
     }
 
     p {
@@ -418,28 +441,30 @@ footer h3 {
     }
 
     .groupresearch {
-        padding: 35px 20px 35px 20px;
     }
 
     .buttonsearch {
         border-radius: 15px;
         width: 49px;
-        filter: drop-shadow(0px 4px 4px black);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
 
     .research {
         display: none;
     }
 
-    .groupfilter {
-        padding: 0px 20px 0px 20px;
+    .fa-magnifying-glass {
+        color: #ffffff;
+        font-size: 17px;
+    }
+
+    .filter4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .filter .button {
-        margin-bottom: 0px;
-    }
-    .groupfilter2 {
-        padding: 35px 20px;
+        margin-bottom: 20px;
     }
 
     .populaires {
